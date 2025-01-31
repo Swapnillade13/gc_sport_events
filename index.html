@@ -12,10 +12,17 @@
       background-color: #f9f9f9;
     }
     header {
-      background-color: #4CAF50;
+      /* background-color: #4CAF50;
       color: white;
-      padding: 20px 0;
+      padding: 20px 0; */
+      height: 100px;
+      margin-top: 0px;
+      background-size: cover;
+      background-image: url(images/background.jpg);
+      color: white;
+      padding: 25px 0;
     }
+    
     footer {
       background-color: #333;
       color: white;
@@ -25,9 +32,10 @@
     .table {
       background-color: white;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
     .table th {
-      background-color: #4CAF50;
+      background-color: #101e47;
       color: white;
     }
     .table-striped tbody tr:nth-of-type(odd) {
@@ -38,13 +46,16 @@
 <body>
   <!-- Header -->
   <header class="text-center">
-    <h1 class="mb-0">General Championship 2025</h1>
+    <h1 class="mb-0">General Championship 2025 </h1>
   </header>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg bg-dark" style="background-color: #93afd7 !important; ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">GC-2025</a>
+      <a class="navbar-brand" href="#">
+        <img src="images/cup-removebg-preview.png" alt="" width="30" height="30" class="d-inline-block align-text-top" style="color: white;">
+        GC-2025
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -72,7 +83,7 @@
     <!-- Scoreboard Section -->
     <section id="dashboard" class="mb-5">
       <h2 class="mb-4">Dashboard</h2>
-      <table class="table table-striped">
+      <table class="table table-striped table-bordered">
         <thead>
           <tr>
             <th>Team</th>
@@ -82,23 +93,23 @@
         <tbody>
           <tr>
             <td>First Year</td>
-            <td>70</td>
+            <td></td>
           </tr>
           <tr>
             <td>Second Year</td>
-            <td>30</td>
+            <td></td>
           </tr>
           <tr>
             <td>Third Year</td>
-            <td>60</td>
+            <td></td>
           </tr>
           <tr>
             <td>Fourth Year</td>
-            <td>90 (Winner)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Interns</td>
-            <td>50</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -107,114 +118,220 @@
     <!-- Scoreboard Section -->
     <section id="scoreboard" class="mb-5">
       <h2 class="mb-4">Scoreboard</h2>
-      <table class="table table-striped">
+      <table class="table table-striped table-bordered">
         <thead>
           <tr>
             <th>Sport</th>
-            <th>1st yr</th>
-            <th>2nd yr</th>
-            <th>3rd yr</th>
-            <th>4th yr</th>
+            <th></th>
+            <th>First Year</th>
+            <th>Second Year</th>
+            <th>Third Year</th>
+            <th>Fourth Year</th>
             <th>Interns</th>
           </tr>
         </thead>
         <tbody>
+          <!-- chess -->
           <tr>
-            <td>Chess</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td rowspan="2">Chess</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Carrom</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- carrom -->
+          <tr>
+            <td rowspan="2">Corrom</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Box Cricket</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Box Cricket -->
+          <tr>
+            <td rowspan="2">Box Cricket</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Kabaddi</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Kabbadi -->
+          <tr>
+            <td rowspan="2">Kabbadi</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Kho Kho</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Kho Kho -->
+          <tr>
+            <td rowspan="2">Kho Kho</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Athletics - 100m</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Athletics - 100m -->
+          <tr>
+            <td rowspan="2">Athletics - 100m</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Athletics - 400m</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Athletics - 100*4-Relay -->
+          <tr>
+            <td rowspan="2">Athletics - 100*4-Relay</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Athletics - relay</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Cricket -->
+          <tr>
+            <td rowspan="2">Cricket</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Cricket</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Badminton -->
+          <tr>
+            <td rowspan="2">Badminton</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Badminton</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Dodge Ball -->
+          <tr>
+            <td>Dodge Ball</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          
+          <!-- Badminton -->
+          <tr>
+            <td rowspan="2">Volley Ball</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Dodge ball</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
-          <tr>
-            <td>volley ball</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
+          
         </tbody>
       </table>
     </section>
@@ -222,30 +339,175 @@
     <!-- Match Results Section -->
     <section id="results" class="mb-5">
         <h2 class="mb-4">Match Results</h2>
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered">
           <thead>
             <tr>
               <th>Sport</th>
               <th></th>
+              <th>Date</th>
               <th>Winner</th>
               <th>Runner up</th>
             </tr>
           </thead>
           <tbody>
-            <!-- Match 1 -->
-            <tr>
-              <td>Chess</td>
-              <td>Girls</td>
-              <td>1st yr</td>
-              <td>4th yr</td>
-            </tr>
-            <!-- Match 2 -->
-            <tr>
-              <td></td>
-              <td>Boys</td>
-              <td>3rd yr</td>
-              <td>2nd yr</td>
-            </tr>
+            <!-- chess -->
+          <tr>
+            <td rowspan="2">Chess</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- carrom -->
+          <tr>
+            <td rowspan="2">Corrom</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Box Cricket -->
+          <tr>
+            <td rowspan="2">Box Cricket</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Kabbadi -->
+          <tr>
+            <td rowspan="2">Kabbadi</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Kho Kho -->
+          <tr>
+            <td rowspan="2">Kho Kho</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Athletics - 100m -->
+          <tr>
+            <td rowspan="2">Athletics - 100m</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Athletics - 100*4-Relay -->
+          <tr>
+            <td rowspan="2">Athletics - 100*4-Relay</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Cricket -->
+          <tr>
+            <td rowspan="2">Cricket</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Badminton -->
+          <tr>
+            <td rowspan="2">Badminton</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!-- Dodge Ball -->
+          <tr>
+            <td>Dodge Ball</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          
+          <!-- Badminton -->
+          <tr>
+            <td rowspan="2">Volley Ball</td>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
             
           </tbody>
         </table>
